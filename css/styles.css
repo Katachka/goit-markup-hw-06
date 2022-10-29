@@ -604,9 +604,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 
 }
 .subscribe-button {
+    display: flex;
+    justify-content: center;
+gap: 10px;
     padding: 10px 28px;
     border-radius: 4px;
-    box-shadow: 0px, 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color:var(--color-accent);
     text-align: center;
 
@@ -685,14 +688,10 @@ cursor: pointer;
     fill: var(--color-black);
 }
 
-.button-modal-close:focus {
- color: var(--color-accent);
+.button-modal-close:hover .btn-cross,
+.button-modal-close:focus .btn-cross {
+ fill: var(--color-accent);
 }
-
-
-/* .button-modal-close:focus+.btn-cross {
-    color: var(--color-accent);
-} */
 
 .modal-title {
     font-weight: 700;
@@ -768,11 +767,46 @@ transition: fill 250ms var(--timing-function);
 .form-comment:focus {
  border-color: var(--color-accent);
 }
+
+.checkbox-form {
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; */
+
+    margin-bottom: 30px;
+}
+.checkbox-input {
+appearance: none;
+}
+.checkbox-label {
+    line-height: 1.7;
+    color: var(--color-primary);
+    padding-left: 36px;
+}
+.checkbox-terms-link {
+    line-height: 1.7;
+    color: var(--color-accent);
+}
+.check-icon {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid var(--color-secondary);
+    border-radius: 3px; */
+
+}
+
+
+
 .form-button {
+    display: block;
     border-radius: 4px;
     padding: 10px 52px;
-    box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
+    margin: 0 auto;
 
     transition: background-color 250ms var(--timing-function);
 

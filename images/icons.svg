@@ -74,14 +74,13 @@
     <symbol id="icon-email" viewBox="0 0 32 32">
       <path d="M28 4H4a2.996 2.996 0 0 0-2.985 3L1 25c0 1.65 1.35 3 3 3h24c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3zm-.6 6.375-10.605 6.63c-.48.3-1.11.3-1.59 0L4.6 10.375c-.375-.24-.6-.645-.6-1.08C4 8.29 5.095 7.69 5.95 8.215L16 14.5l10.05-6.285c.855-.525 1.95.075 1.95 1.08 0 .435-.225.84-.6 1.08z"/>
     </symbol>
-    <symbol id="icon-check-mark" viewBox="0 0 32 32">
-      <path stroke-width=".492" d="m4.817 15.389-.169-.162-2.544 2.41 8.962 8.55L29.895 8.225l-2.527-2.411L11.066 21.35l-6.249-5.962z"/>
+    <symbol id="icon-icon-check" viewBox="0 0 34 32">
+      <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4267" d="M8.442 16.538l-0.147-0.141-0.147 0.139-2.057 1.95 0.162 0.156 7.605 7.253 0.147-0.141 16.171-15.426-0.162-0.154-2.029-1.935-0.147 0.141-13.98 13.325-5.417-5.167z"></path>
     </symbol>
     <symbol id="icon-name" viewBox="0 0 32 32">
       <path d="M16 16c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8zm0 4c-5.34 0-16 2.68-16 8v2c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-2c0-5.32-10.66-8-16-8z"/>
     </symbol>
-    <symbol id=“icon-check” viewBox=“0 0 42 32">
-   <path stroke-linejoin=“miter” stroke-linecap=“butt” stroke-miterlimit=“4” stroke-width=“0.64" d=“M6.262 15.206l-0.221-0.211-0.221 0.208-3.085 2.925 0.243 0.234 11.408 10.88 0.221-0.211 24.256-23.139-0.243-0.23-3.043-2.902-0.221 0.211-20.97 19.987-8.125-7.75z”></path>
-   </symbol>
+    
+   
   </defs>
 </svg>
