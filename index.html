@@ -486,7 +486,7 @@
           </div>
           <!-- subscribe-form -->
           <form class="footer-form">
-            <h2 class="footer-title">Підпишіться на розсилку</h2>
+            <p class="footer-title">Підпишіться на розсилку</p>
             <div class="footer-subscribe">
               <input type="email" name="email" class="email-footer" placeholder="E-mail" />
               <button type="submit" class="subscribe-button">
@@ -551,19 +551,16 @@
           ></textarea>
           <!-- чекбокс -->
           <div class="checkbox-form">
-            <input
-              class="checkbox-input visually-hidden"
-              type="checkbox"
-              name="checkbox"
-              id="terms-checkbox"
-            />
-            <label class="checkbox-label" for="terms-checkbox"
+            <label class="checkbox-label"
               >Погоджуюся з розсилкою та приймаю
-              <a href="#" class="checkbox-terms-link">Умови договору</a></label
-            >
-            <svg class="check-icon" width="16" height="15">
-              <use href="./images/icons.svg#icon-icon-check"></use>
-            </svg>
+              <a href="#" class="checkbox-terms-link">Умови договору</a>
+              <input class="checkbox-input visually-hidden" type="checkbox" name="checkbox" />
+              <span class="checkbox-mark">
+                <svg class="check-icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-icon-check"></use>
+                </svg>
+              </span>
+            </label>
           </div>
           <!-- кнопка форми -->
           <button class="form-button" type="submit">Відправити</button>

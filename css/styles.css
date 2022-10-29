@@ -201,6 +201,7 @@ ul {
 
 .primary-button {
     border-radius: 4px;
+    border: none;
     padding: 10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
@@ -597,9 +598,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 .footer-form {
 
 }
-.footer-title {
-
-}
 .footer-subscribe {
     display: flex;
     align-items: center;
@@ -607,20 +605,25 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     gap: 12px;
 }
 .email-footer {
-width: 358px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 4px;
-padding: 15px 16px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-background-color:var(--color-background-footer);
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 15px 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color:var(--color-background-footer);
 
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-button {
     display: flex;
     justify-content: center;
-gap: 10px;
+    gap: 10px;
     padding: 10px 28px;
     border-radius: 4px;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color:var(--color-accent);
     text-align: center;
@@ -635,9 +638,6 @@ gap: 10px;
     color: var(--color-white);
     cursor: pointer;
 }
-/* .subscribe-button:focus {
-
-} */
 .send {
     fill:var(--color-white);
 }
@@ -683,18 +683,18 @@ gap: 10px;
 
 
 .button-modal-close {
-position: absolute;
-top: 8px;
-right: 8px;
-width: 30px;
-height: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50%;
-background:var(--color-background);
-border: 1px solid rgba(0, 0, 0, 0.1);
-cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background:var(--color-background);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 .btn-cross {
     fill: var(--color-black);
@@ -782,10 +782,7 @@ transition: fill 250ms var(--timing-function);
 
 .checkbox-form {
     position: relative;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px; */
+   
 
     margin-bottom: 30px;
 }
@@ -801,20 +798,34 @@ appearance: none;
     line-height: 1.7;
     color: var(--color-accent);
 }
+.checkbox-mark {
+    width: 16px;
+        height: 15px;
+        border: 2px solid var(--color-secondary);
+        border-radius: 3px;
+}
+.checkbox-input:checked + .checkbox-mark {
+    background-color: var(--color-accent);
+    border: none;
+}
 .check-icon {
     /* position: absolute;
     top: 0;
-    left: 0;
-    border: 1px solid var(--color-secondary);
-    border-radius: 3px; */
+    left: 0; */
+    
+
+   
 
 }
+    
+    
 
 
 
 .form-button {
     display: block;
     border-radius: 4px;
+    border: none;
     padding: 10px 52px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     text-align: center;
